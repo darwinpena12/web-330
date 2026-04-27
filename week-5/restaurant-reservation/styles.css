@@ -3,9 +3,64 @@
   Chapter 2
   Programming Assignment
 
-  Author:
-  Date:
-  Filename:
+  Author: Darwin Pena Cabrera
+  Date: 04/26/2026
+  Filename: styles.css
 */
 
 /* Add your CSS styles here */
+
+body {
+  font-family: Arial;
+  background: linear-gradient(90deg, #ff0000, #f8f9fa);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background: #ffffff;
+  padding: 30px 30px;
+  width: 320px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #000000;
+}
+
+input {
+  padding: 10px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #000000;
+}
+
+input[type="submit"] {
+  background: #00eaff;
+  color: rgb(0, 0, 0);
+  border-width: 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background: #357ab8;
+}
+
+#message {
+  margin: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}
