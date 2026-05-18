@@ -3,9 +3,9 @@
   Chapter 4
   Programming Assignment
 
-  Author:
-  Date:
-  Filename:
+  Author: Darwin Pena Cabrera
+  Date: 05/17/2026
+  Filename: script.js
 */
 
 "use strict";
